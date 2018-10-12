@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Store Manager App">
+    <meta name="keywords" content="store manager, product, inventory, sales">
+    <meta name="author" content="Omoijahe Anthony">
+    <title>Store Manage| create user account</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <h3>create a new sales Attendant</h3>
+<div class="fieldset-wrapper">
+    <form action="" method="POST">
+        <p class="field field-text">
+            <label for="first_name"> First Name:
+                <input type="text" id="first_name" name="first_name" required="required">
+            </label>
+        </p>
+        <p class="field field-text">
+            <label for="last_name"> Last Name:
+                <input type="text" id="last_name" name="last_name" required="required">
+            </label>
+        </p>
+        <p class="field field-text">
+            <label for="email"> Email Address:
+                <input type="email" id="email" name="email" required="required">
+            </label>
+        </p>
+        <p class="field field-text">
+            <label for="id"> Identification number:
+                <input type="number" id="id" name="id" required="required">
+            </label>
+        </p>
+        <p class="field field-text">
+            <label for="user_photo"> Please Upload A Photo:
+                <input type="file" id="user_photo" name="user_photo" required="required">
+            </label>
+        </p>
+        <fieldset>
+            <legend>Please select user role:</legend>
+            <label for="salesrep"> Attendant
+                <input type="radio" name="role" value="salesrep" id="salesrep">
+            </label>
+            <label for="admin"> Admin
+                <input type="radio" name="role" value="admin" id="admin">
+            </label>
+        </fieldset>
+        </p>
+        <p class="field field-text">
+            <label for="id"> User Password:
+                <input type="password" id="password" name="password" required="required">
+            </label>
+        </p>
+        <p class="field field-text">
+            <label for="id"> Confirm User Password:
+                <input type="password" id="confirm_password" name="confirm_password" required="required">
+            </label>
+        </p>
+        <input type="submit" value="create">
+    </form>
+</div>
+<div>
+    <table>
+        <thead>
+        <tr>
+            <th>identification Number</th>
+            <th>profile picture</th>
+            <th>User fullname</th>
+            <th>Action</th>
+            <th>Sales Record</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td><img src="./img/female_profile.jpeg" alt="user_photo"></td>
+            <td>Eldridge Roob</td>
+            <td><a href="../UI/create-salesAttendant-user-account.html">Update</a>|<a href="/delete.html">Delete</a>
+            </td>
+            <td><a href="../UI/individual-sales-attendant-total-number-of-products-solds.html">View Sales
+                record</a></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><img src="./img/profile.jpeg" alt="user_photo"></td>
+            <td>Annabell Sporer</td>
+            <td><a href="../UI/create-salesAttendant-user-account.html">Update</a>|<a href="/delete.html">Delete</a>
+            </td>
+            <td><a href="../UI/individual-sales-attendant-total-number-of-products-solds.html">View Sales
+                record</a></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td><img src="./img/female_profile.jpeg" alt="user_photo"></td>
+            <td>Bertrand Mueller</td>
+            <td><a href="../UI/create-salesAttendant-user-account.html">Update</a>|<a href="/delete.html">Delete</a>
+            </td>
+            <td><a href="../UI/individual-sales-attendant-total-number-of-products-solds.html">View Sales
+                record</a></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td><img src="./img/female_profile.jpeg" alt="user_photo"></td>
+            <td>Giovanny Wisoky</td>
+            <td><a href="../UI/create-salesAttendant-user-account.html">Update</a>|<a href="/delete.html">Delete</a>
+            </td>
+            <td><a href="../UI/individual-sales-attendant-total-number-of-products-solds.html">View Sales
+                record</a></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td><img src="./img/profile.jpeg" alt="user_photo"></td>
+            <td>Rene Nader</td>
+            <td><a href="../UI/create-salesAttendant-user-account.html">Update</a>|<a href="/delete.html">Delete</a>
+            </td>
+            <td><a href="../UI/individual-sales-attendant-total-number-of-products-solds.html">View Sales
+                record</a></td>
+        </tr>
+
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+</div>
+</body>
+
+</html>
